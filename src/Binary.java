@@ -6,8 +6,9 @@ public class Binary {
         System.out.println("Inserisci una stringa binaria: ");
         String Binary = scanner.nextLine();
 
-        int decimalValue = 0;
-        
+        //int decimalValue = 0;
+        int decimalValue = Bynary(Binary);
+
         System.out.println("Valore decimale: " + decimalValue);
         scanner.close();
     }
